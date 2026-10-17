@@ -1,0 +1,17 @@
+# Local M5 competition data (large files; fetch from Kaggle or Databricks storage)
+m5-forecasting-accuracy/*.csv
+
+# Python and Databricks local development
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated predictions and training artifacts
+submission*.csv
+mlruns/
+
+# macOS
+.DS_Store
